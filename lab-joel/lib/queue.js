@@ -9,7 +9,7 @@ Queue.con = function() {
     collection.push(element);
   };
   this.dequeue = function() {
-    return collection.shift();
+    return collection.pop();
   };
   this.arr = function() {
     return collection;
